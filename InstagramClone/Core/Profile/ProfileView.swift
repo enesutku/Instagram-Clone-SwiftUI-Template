@@ -26,9 +26,9 @@ struct ProfileView: View {
                         Spacer()
                         
                         HStack(spacing: 8) {
-                            StatsView(statCount: "3", statText: "Posts")
+                            StatsView(statCount: "4", statText: "Posts")
                             StatsView(statCount: "52K", statText: "Followers")
-                            StatsView(statCount: "5", statText: "Following")
+                            StatsView(statCount: "8", statText: "Following")
                         }
                         
                     }
